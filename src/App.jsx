@@ -9,6 +9,7 @@ import Gettable from './components/Gettable'
 import Statebasics from './components/Statebasics'
 import Counter from './components/Counter'
 import Message from './components/Message'
+import Product from './components/Product'
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
         <Route path="/state" element={<Statebasics />} />
         <Route path="/counter" element={<Counter />} />
         <Route path="/message" element={<Message />} />
+        <Route path="/product" element={<Product />} />
       </Routes>     
     
       <Navbar />

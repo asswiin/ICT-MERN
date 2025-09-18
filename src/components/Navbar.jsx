@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   return (
-    <div>
+    <div class="nav">
       <AppBar>
         <Toolbar>
           <h3>myapp</h3> &nbsp;
@@ -15,19 +15,22 @@ const Navbar = () => {
             <Button variant='contained'>Login</Button>
           </Link>
           <Link to='/signup'>
-          <Button variant='contained'>Signup</Button>
+            <Button variant='contained'>Signup</Button>
           </Link>
           <Link to='/table'>
-          <Button variant='contained'>table</Button>
+            <Button variant='contained'>table</Button>
           </Link>
           <Link to='/state'>
-          <Button variant='contained'>state</Button>
+            <Button variant='contained'>state</Button>
           </Link>
           <Link to='/counter'>
             <Button variant='contained'>counter</Button>
           </Link>
           <Link to='/message'>
             <Button variant='contained'>Message</Button>
+          </Link>
+          <Link to='/product'>
+            <Button variant='contained'>Product</Button>
           </Link>
         </Toolbar>
       </AppBar><br /><br /><br /><br /><br /><br /><br /><br />
